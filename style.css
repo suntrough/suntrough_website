@@ -1,0 +1,297 @@
+html, body, h1, h2, h3, h4, ul, li {
+	margin: 0;
+	padding: 0;
+}
+h1 img {
+	display: block;
+}
+img {
+	border: 0;
+}
+a {
+	color: #284067;
+}
+a:hover {
+	color: #4f81bd;
+}
+.left {
+	float: left;
+}
+.right {
+	float: right;
+}
+.more {
+	text-align: right;
+}
+.clear {
+	clear: both;
+}
+
+body {
+	background: #ffe187;
+	font: 10pt arial, sans-serif;
+	color: #666666;
+	padding-bottom: 10px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+/** layout **/
+#wrapper {
+	background: #ffffff;
+	width: 770px;
+	min-height: 750px;
+	_height: 750px;
+  position: relative;
+	border-left-style: solid;
+	border-left-color: #bbbbbb;
+	border-left-width: 1px;
+	border-right-style: solid;
+	border-right-color: #bbbbbb;
+	border-right-width: 1px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+h1 {
+  padding: 25px 0 0 30px;
+  font: 32px "arial black", arial, sans-serif;
+  color: #151515;
+}
+
+h1 em {
+  color: #ffffff;
+  font-weight: bold;
+  font-style: normal;
+  position: relative;
+  top: -4px;
+}
+
+/* header */
+#header {
+	background-image: url('images/logo.jpg');
+	background-position: 10px 10px;
+	background-repeat: no-repeat;
+	height: 60px;
+}
+
+#topcontact {
+	position: relative;
+	left: 600px;
+	top: 12px;
+}
+
+#topcontact ul {
+	list-style-type: none;
+}
+
+.contact a {
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 11px;
+}
+
+
+/* topnav */
+#topnav {
+	position: relative;
+	height: 31px;
+	
+	background-image: url('images/topnav_bg.gif');
+	background-repeat: repeat-x;
+	padding-top: 6px;
+	padding-left: 20px;
+	margin-bottom: 17px;
+}
+
+.nav ul li {
+	display: inline;
+	padding-right: 30px;
+}
+
+.nav a {
+	text-decoration: none;
+	
+	color: #666666;
+	font-family: "Verdana";
+	font-size: 12pt;
+	font-variant: small-caps;
+}
+
+.nav a:hover {
+	background-color: #f7c701;
+	color: #000000;
+}
+
+
+/* topimage */
+#topimage {
+	background-image: url('images/clouds.jpg');
+	background-repeat: no-repeat;
+	background-position: 0px -300px;
+	height: 207px;
+	padding-left: 250px;
+	padding-top: 7px;
+}
+
+#introtopimage {
+	/* background-image: url('images/clouds.jpg');*/
+	background-repeat: no-repeat;
+	background-position: 0px -300px;
+	/*height: 180px;*/
+	
+	/*border-top-style: solid;
+	border-top-color: #bbbbbb;
+	border-top-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #bbbbbb;
+	border-bottom-width: 1px;*/
+}
+
+
+
+/* maincontent */
+#maincontent {
+	position: relative;
+	width: 97%;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 10px;
+}
+
+
+/* inset */
+.inset {
+	width: 30%;
+	
+	border-width: 10px;
+	border-color: #ffffff;
+	border-style: solid;
+	
+	padding-top: 140px;
+	vertical-align: text-top;
+	
+	background-repeat: no-repeat;
+	background-position: top center;
+	
+	text-align: left;
+}
+
+#identity {
+	background-image: url('images/identity.jpg');
+}
+
+#identity:hover {
+	/* background-image: url('images/identity_caption.jpg'); */
+}
+
+#product {
+	background-image: url('images/product.jpg');
+}
+
+#product:hover {
+	/* background-image: url('images/product_caption.jpg'); */
+}
+
+#water {
+	background-image: url('images/water.jpg'); /* (c)Tomo.Yun (www.yunphoto.net/en/) */
+}
+
+#water:hover {
+	/* background-image: url('images/water_caption.jpg'); */
+}
+
+
+/* sidemenu */
+#sidemenu {
+	position: absolute;
+	left: 40px;
+	top: 114px;
+	
+	height: 480px;
+	
+	padding-left: 0px;
+	padding-right: 10px;
+	padding-top: 10px;
+	
+	background-image: url('images/sidemenu_bg.jpg');
+	background-repeat: repeat-x;
+	background-color: #ffffff;
+	
+	font-size: 11pt;
+	font-variant: small-caps;
+	line-height: 1.8em;
+}
+
+#sidemenu ul {
+	list-style-type: none;
+}
+
+#sidemenu ul li {
+	padding-left: 20px;
+	width: 160px;
+}
+
+#sidemenu a {
+	color: #000000;
+	text-decoration: none;
+}
+
+#sidemenu a:hover {
+	color: #ffffff;
+}
+
+#contactmenu {
+	width: 20px;
+}
+
+
+/* insidecontent */
+#insidecontent {
+	min-height: 360px;
+	padding-top: 0px;
+	padding-left: 250px;
+	padding-right: 40px;
+	color: #666666;
+	padding-right: 35px;
+}
+
+#insidecontent h2 {
+	color: #444444;
+	font-size: 18pt;
+	font-weight: normal;
+	font-family: Calibri, sans-serif;
+	font-variant: small-caps;
+}
+
+#insidecontent ul {
+	list-style-position: inside;
+}
+
+
+/* bottomnav */
+#bottomnav {
+	margin-top: 10px;
+	margin-bottom: 10px;
+	margin-left: auto;
+	margin-right: auto;
+	min-height: 30px;
+	
+	background-image: url('images/bottombar.png');
+	background-repeat: no-repeat;
+	background-position: top center;
+
+	padding-left: 100px;
+}
+
+#bottomnav a {
+	font-size: 75%;
+}
+
+
+/* footer */
+#footer {
+	position: relative;
+	left: 600px;
+	padding-bottom: 30px;
+}

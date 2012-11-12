@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<album
+	thumbnail="album/albumThumbnail.jpg"
+	itemPath="album/images"
+	thumbnailPath="album/thumbnails">
+	<configuration
+		backgroundColor="#ffffff"
+		delay="8"
+		viewportRoundness="0"
+		randomize="false"
+		preloadItems="1"
+		startWithItemID="firstSlide">
+		<transition kenBurnsMode="randomZoomIn" />
+		<controller
+			showNavigationAlbumUpButton="false"
+			showNavigationButton="false"
+			disappearDelay="1"
+			startHidden="true"
+			type="none"/>
+	</configuration>
+	<contents>
+		<image source="downtrough.jpg" id="firstSlide" title="Suntrough Energy" description="•	Redefining CSP">
+			<configuration>
+				<caption
+					backgroundAlpha="0.8"
+					backgroundColor="#222222"
+					backgroundType="fitCompleteText"
+					position="rightCenter"
+					padding="5, 40, 5, 140"
+					margin="5, 5, 0, 5"
+				>
+					<title
+						color="#4f81bd"
+						font="Calibri, sans-serif"
+						weight="bold"
+					/>
+					<description
+						color="#bbbbbb"
+						font="Calibri, sans-serif"
+					/>
+				</caption>
+			</configuration>
+		</image>
+		
+		<image source="sunset.jpg" title="Suntrough Energy" description="•	Clean Water,
+	Solar Electricity,
+	Proven Technology">
+			<configuration>
+				<caption
+					backgroundAlpha="0.8"
+					backgroundColor="#222222"
+					backgroundType="fitCompleteText"
+					position="rightCenter"
+					padding="5, 77, 5, 77"
+					margin="5, 5, 0, 5"
+				>
+					<title
+						color="#4f81bd"
+						font="Calibri, sans-serif"
+						weight="bold"
+					/>
+					<description
+						color="#bbbbbb"
+						font="Calibri, sans-serif"
+					/>
+				</caption>
+			</configuration>
+		</image>
+		
+		<image source="littlerock.jpg" title="Suntrough Energy" description="•	Solar Energy
+	for Everyone">
+			<configuration>
+				<caption
+					backgroundAlpha="0.8"
+					backgroundColor="#222222"
+					backgroundType="fitCompleteText"
+					position="rightCenter"
+					padding="5, 135, 5, 35"
+					margin="5, 5, 0, 5"
+				>
+					<title
+						color="#4f81bd"
+						font="Calibri, sans-serif"
+						weight="bold"
+					/>
+					<description
+						color="#bbbbbb"
+						font="Calibri, sans-serif"
+					/>
+				</caption>
+			</configuration>
+		</image>
+	</contents>
+</album>
